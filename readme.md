@@ -6,10 +6,10 @@
 
 1. [Overview](#overview)
 2. [Data](#data)
-3. [First Glance](#first-glance)
-4. [When are incidents occurring?](#when-are-incidents-occurring?)
-5. [What is causing the increase in the Fall?](#what-is-causing-the-increase-in-the-fall?)
-6. [What next?](#what-next?)
+3. [Model](#model)
+4. [Results](#results)
+5. [Where to go from here?](#where-to-go-from-here?)
+
 
 
 
@@ -60,7 +60,8 @@ Similarily here, we can see that when there is a mismatch in currency being used
 
 <img alt="Sale Duration by Fraud" src='images/imgs/SaleDurationbyFraud.png' width=500> 
 
-Similarily, 
+Similarily, we can see another mismatch between sale duration and fraud. This is much less clear in the figure, but the bulk of fraud cases overwhelmingly average slightly less time than non-fraud purhcases.
+
 ## Model
 
 We opted to use XGBoostClassifier for our model. It has a history of out performing other ensemble models, so we only spent our time with this particular one, but our pipeline should be easily capable of swapping to most other ensemble models for further testing.
