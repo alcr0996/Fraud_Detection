@@ -101,4 +101,4 @@ I feel really good about our model performance. It is suspiciously good, to the 
 ## Where to go from here
 As part of evaluation and deployment, I would like to expand the model to handle and flag the stream in live time, as well as refine the current models features and hyperparameters
 
-<img alt="KDE plot Month Year" src='images/img/fred/reconstruction_error.png' width=500> 
+<img alt="KDE plot Month Year" src='images/reconstruction_error.png' width=500> 
